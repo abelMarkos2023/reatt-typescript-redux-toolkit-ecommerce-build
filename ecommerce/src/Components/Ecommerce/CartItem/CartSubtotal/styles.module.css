@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+}
+.container span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}

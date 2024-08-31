@@ -1,0 +1,59 @@
+.headers{
+    display: flex;
+    flex-direction: column;
+   
+    
+    padding-inline: 1.5rem;
+    padding-block: .2rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo h1{
+    display: flex;
+
+    margin: 0;
+}
+.logo h1 span{
+    display: block;
+    margin-right: 0.3rem;
+}
+
+.right{
+display: flex;
+align-items: center;
+gap: 0.6rem;
+}
+.right:first-child{
+    padding-right: 0.5rem;
+    border-right: 1px solid black;
+}
+
+.wishlist{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-right: 0.5rem;
+    border-right: 1px solid black;
+    span{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+.basket{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    span{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
